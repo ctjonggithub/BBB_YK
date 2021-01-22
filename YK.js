@@ -34,8 +34,10 @@ hostname = api.yikeapp.com,
 
 
 const $ = new Env('一刻视频')
-let CookieVal = $.getdata('yk_ck')
-let bodyVal = $.getdata('yk_body')
+//let CookieVal = $.getdata('yk_ck')
+//let bodyVal = $.getdata('yk_body')
+let CookieVal = process.env.YKCK
+let bodyVal = process.env.YKBODY
 
 now = new Date(new Date().getTime() + new Date().getTimezoneOffset()*60*1000 + 8*60*60*1000);  
 
