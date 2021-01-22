@@ -22,7 +22,7 @@ jobs:
                   npm install
             - name: "运行【yk】"
               run: |
-                  node BBB.js
+                  node YK.js
               env:
                   YKCK: ${{ secrets.YKCK }}
                   YKBODY: ${{ secrets.YKBODY }}
