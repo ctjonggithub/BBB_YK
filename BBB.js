@@ -1,6 +1,4 @@
-const $ = new Env('步步寶')
-let notice = ''
-//let CookieVal = $.getdata('bbb_ck')/*
+/*
 adwktt
 轉載備註名字
 打开App获取Cookie
